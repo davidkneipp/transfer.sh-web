@@ -1,6 +1,4 @@
-{{.Hostname}}: Easy file sharing from the command line 
-===
-made with <3 by DutchCoders 
+{{.Hostname}}: Easy file sharing from the command line
 
 Upload:
 $ curl --upload-file ./hello.txt {{.WebAddress}}/hello.txt
@@ -12,7 +10,7 @@ Download & decrypt:
 $ curl {{.WebAddress}}/1lDau/test.txt|gpg -o- > /tmp/hello.txt
 
 Grep pound from syslog and transfer
-cat /var/log/syslog|grep pound|curl --upload-file - {{.WebAddress}}/pound.log 
+cat /var/log/syslog|grep pound|curl --upload-file - {{.WebAddress}}/pound.log
 
 Using Keybase:
 # import keys from keybase

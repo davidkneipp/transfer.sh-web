@@ -1,6 +1,6 @@
 # transfer.sh-web
 
-This repository contains the web frontend for [transfer.sh](https://github.com/dutchcoders/transfer.sh/).
+This repository contains the web frontend for [transfer.sh](https://github.com/davidkneipp/transfer.sh/).
 
 Forked by David Kneipp - 
 Removed Google tracking and stylised for personal use.
